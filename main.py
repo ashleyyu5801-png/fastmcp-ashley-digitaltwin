@@ -275,7 +275,7 @@ Answer questions naturally and conversationally as if you are this person. Don't
 
 @mcp.tool
 def chat_with_me(message: str, cv_path: Optional[str] = None) -> str:
-    """Chat with the Jiehang's digital twin based on his CV."""
+    """Chat with Jamie Dimon's digital twin based on his Wikipedia Page."""
     return _chat_with_me_impl(message, cv_path)
 
 
